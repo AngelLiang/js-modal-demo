@@ -1,0 +1,30 @@
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>js-modal-demo</title>
+	<link rel="stylesheet" href="modal.css" type="text/css">
+    <script type="text/javascript" src="modal.js"></script>
+</head>
+
+<body>
+<section class="modal hidden">
+  <div class="flex">
+    <img src="user.png" width="50px" height="50px" alt="user" />
+    <button class="btn-close">⨉</button>
+  </div>
+  <div>
+    <h3>Stay in touch</h3>（保持联系）
+    <p>
+      This is a dummy newsletter form so don't bother trying to test it. Not
+      that I expect you to, anyways.:)（这是一个虚拟的通讯表单，所以不要费心去测试它。反正我也不指望你这么做）
+    </p>
+  </div>
+
+  <input type="email" id="email" placeholder="brendaneich@js.com" />
+  <button class="btn">Submit</button>
+</section>
+
+<div class="overlay hidden"></div>
+<button class="btn btn-open">Open Modal</button>
+
+</body>
